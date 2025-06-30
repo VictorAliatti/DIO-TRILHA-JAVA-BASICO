@@ -5,7 +5,9 @@ Objetivo
 ## Criar um programa que:
 
 -Solicita dois números inteiros ao usuário.
+
 -Imprime uma contagem baseada na diferença entre eles.
+
 -Lança uma exceção personalizada se o primeiro número for maior que o segundo.
 
 ## Como funciona
@@ -13,8 +15,9 @@ Objetivo
 1. O programa pede dois números no terminal.
 2. Ele verifica:
   =Se o segundo número for maior que o primeiro, realiza uma contagem (for) de 1 até a diferença.
+
   =Se o primeiro número for maior que o segundo, lança uma exceção personalizada com uma mensagem de aviso.
-3. O resultado é exibido no terminal, número por número.
+4. O resultado é exibido no terminal, número por número.
 
 ## Entrada esperada
 O usuário deve digitar dois valores inteiros:
@@ -27,9 +30,13 @@ Digite o segundo parâmetro:
 ## Saída esperada
 
 O programa imprimirá:
+
 Imprimindo o número 1
+
 Imprimindo o número 2
+
 Imprimindo o número 3
+
 Imprimindo o número 4
 
 Se os parâmetros forem inválidos (ex: primeiro maior que o segundo):
@@ -38,9 +45,13 @@ Se os parâmetros forem inválidos (ex: primeiro maior que o segundo):
 ## Conceitos praticados
 
 =Entrada de dados com Scanner
+
 =Estruturas condicionais (if/else)
+
 =Laço de repetição for
+
 =Criação e lançamento de exceções personalizadas
+
 =Organização de código em métodos
 
 ## Resultado final
